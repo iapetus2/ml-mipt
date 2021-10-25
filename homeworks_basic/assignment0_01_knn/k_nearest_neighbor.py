@@ -177,7 +177,7 @@ class KNearestNeighbor:
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-            nique_labels, counts = np.unique(closest_y, return_counts=True)
+            unique_labels, counts = np.unique(closest_y, return_counts=True)
             y_pred[i] = unique_labels[np.argmax(counts)]
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
